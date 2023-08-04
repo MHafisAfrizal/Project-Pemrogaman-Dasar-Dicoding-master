@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: rgb(226, 221, 250);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: inline;
+}
+
+#home {
+    padding: 130px;
+    text-align: center;
+    background-image: url("asset_img/location.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+}
+
+h1.kota-blitar {
+    font-family: 'Courgette', cursiv;
+    font-size: 40px;
+}
+
+nav {
+    background-color: #3c51a5;
+    top: 0;
+    position: sticky;
+    padding: 5px;
+}
+
+nav a:hover {
+    background-color: #3c51a5;
+}
+
+nav a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 20px;
+    display: inline;
+}
+
+.card {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0 rgb(151, 151, 196);
+    margin-top: 30px;
+}
+
+main {
+    color: #37434F;
+    padding: 20px;
+    text-align: justify;
+    overflow: auto;
+}
+
+.content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 30px;
+}
+
+.image {
+    width: 70%;
+    max-height: 350px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+footer {
+    padding: 5px;
+    text-align: center;
+    background-color: #475796;
+    position: sticky;
+    top: 0;
+}
+
+#biodata img {
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+header h2 {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+article h2 {
+    text-align: center;
+}
+
+#contact {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: rgb(142, 164, 231);
+
+}
+
+.contact-form1,
+.contact-form2 {
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 25px;
+    border: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: #e4e7f5;
+    font-size: 16px;
+}
+
+#text-area {
+    width: 300px;
+    height: 200px;
+    padding: 20px;
+    border: none;
+    background-color: #e4e7f5;
+    font-size: 16px;
+}
+
+input.submit {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    margin-top: 25px;
+    background-color: #525c88;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+
+}
+
+#text-area {
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .content,
+    aside {
+        width: 100%;
+        padding: 20px;
+    } 
+
+
+    h1.kota-blitar {
+        font-family: 'Courgette', cursiv;
+        font-size: 35px;
+    }
+
+}
+ 
+@media only screen and (min-width: 1024px) and (max-height: 1366px) {
+    #biodata img {
+        width: 140px;
+    } 
+
+
+    h1.kota-blitar {
+        font-family: 'Courgette', cursiv;
+        font-size: 35px;
+    }
+
+}
+
+.submit:hover {
+    color: #ADB7D7;
+}
